@@ -3,3 +3,7 @@ just a test, to tag some versions afterwards with a gpg-signature.
  branch b2 created at 2009-06-21 03:00:00 CEST
  branch b2 deleted at 2009-06-21 04:00:00 CEST
 2010-02-11 16:23:40 CET
+2010-11-08 09:44:00 CET
+ git checkout unstable
+ http://progit.org/2010/08/25/notes.html
+ git tag -a v1.1beta -m 'this should become v1.1 in the future'

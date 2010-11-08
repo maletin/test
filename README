@@ -7,3 +7,16 @@ just a test, to tag some versions afterwards with a gpg-signature.
  git checkout unstable
  http://progit.org/2010/08/25/notes.html
  git tag -a v1.1beta -m 'this should become v1.1 in the future'
+
+ $ git tag -v v1.1beta
+ object a3afbbf9935e05ce6830cdd3769ec825bed47665
+ type commit
+ tag v1.1beta
+ tagger Martin von Oertzen <m.oertzen@eurodata.de> 1289206152 +0100
+
+ this should become v1.1 in the future
+ gpg: Keine gültigen OpenPGP-Daten gefunden.
+ gpg: Die Unterschrift konnte nicht überprüft werden.
+ Denken Sie daran, daß die Datei mit der Unterschrift (.sig oder .asc)
+ als erste in der Kommandozeile stehen sollte.
+ error: could not verify the tag 'v1.1beta'
